@@ -2683,14 +2683,14 @@ td:last-child {
 
 .text-pretitle {
   font-family: var(--font-1);
-  font-weight: 600;
+  font-weight: 800;
   font-size: var(--text-size);
   line-height: var(--vspace-1);
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--color-1);
   transform: translate(0.2em, 0);
   margin-top: 0;
+  color: #000;
 }
 
 .text-display-title {
@@ -2910,6 +2910,7 @@ td:last-child {
   .text-pretitle {
     font-size: var(--text-size);
     line-height: var(--vspace-0_75);
+    color: #fff;
   }
 
   .section-header {
@@ -3381,7 +3382,6 @@ td:last-child {
 .s-intro__content-pretitle {
   font-weight: 600;
   margin-bottom: var(--vspace-0_125);
-  color: var(--color-1);
 }
 
 .s-intro__content-title {
